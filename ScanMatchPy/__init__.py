@@ -19,8 +19,8 @@ import weakref
 class _PathInitializer(object):
     PLATFORM_DICT = {'Windows': ['PATH','dll',''], 'Linux': ['LD_LIBRARY_PATH','so','libmw'], 'Darwin': ['DYLD_LIBRARY_PATH','dylib','libmw']}
     SUPPORTED_PYTHON_VERSIONS = ['2_7', '3_6', '3_7']
-    RUNTIME_VERSION_W_DOTS = '9.14'
-    RUNTIME_VERSION_W_UNDERSCORES = '9_14'
+    RUNTIME_VERSION_W_DOTS = '9.3'
+    RUNTIME_VERSION_W_UNDERSCORES = '9_3'
     PACKAGE_NAME = 'ScanMatchPy'
     
     def set_interpreter_version(self):    

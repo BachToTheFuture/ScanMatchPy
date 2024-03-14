@@ -12,8 +12,8 @@ echo "###############################"
 # cd ..
 # rm -rf temp_matlab_runtime/
 
-echo 'LD_LIBRARY_PATH=/usr/local/apps/matlab/2023a/runtime/glnxa64:/usr/local/apps/matlab/2023a/bin/glnxa64:/usr/local/apps/matlab/2023a/sys/os/glnxa64:/usr/local/apps/matlab/2023a/extern/bin/glnxa64:$LD_LIBRARY_PATH' >> ~/.bashrc
+echo 'LD_LIBRARY_PATH=/usr/local/apps/matlab/2017b/runtime/glnxa64:/usr/local/apps/matlab/2017b/bin/glnxa64:/usr/local/apps/matlab/2017b/sys/os/glnxa64:/usr/local/apps/matlab/2017b/extern/bin/glnxa64:$LD_LIBRARY_PATH' >> ~/.bashrc
 echo 'export LD_LIBRARY_PATH' >> ~/.bashrc
 
-LD_LIBRARY_PATH=/usr/local/apps/matlab/2023a/runtime/glnxa64:/usr/local/apps/matlab/2023a/bin/glnxa64:/usr/local/apps/matlab/2023a/sys/os/glnxa64:/usr/local/apps/matlab/2023a/extern/bin/glnxa64:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/usr/local/apps/matlab/2017b/runtime/glnxa64:/usr/local/apps/matlab/2017b/bin/glnxa64:/usr/local/apps/matlab/2017b/sys/os/glnxa64:/usr/local/apps/matlab/2017b/extern/bin/glnxa64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH
